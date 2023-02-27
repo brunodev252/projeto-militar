@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+/* # é id */
+/* . é classe */
+
+/* imagens */
+.bloco-imagens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+.fotos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.imagens {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 10 0 20px; */
+}
+
+
+.imagens:hover {
+    transform: scale(1.03);
+}
+
+.imagem-1 {
+    background-image: url('https://cmse.eb.mil.br/opcore/media/k2/items/cache/19f9cefdfb07230a68581d617885a3af_Generic.jpg');
+
+}
+
+.imagem-2 {
+    background-image: url('https://uploads.diariodopoder.com.br/2019/09/Infantaria-de-Selva-do-Ex%C3%A9rcito-Brasileiro-na-Amaz%C3%B4niaFoto_-Comunica%C3%A7%C3%A3o-Social-do-Ex%C3%A9rcito.jpg');
+}
+
+.imagem-3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/For%C3%A7as_especiais%2C_Comandos_%2826646206001%29.jpg/1200px-For%C3%A7as_especiais%2C_Comandos_%2826646206001%29.jpg');
+}
+
+.imagem-4 {
+    background-image: url('https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2022/11/11100001/exercito-brasileiro.jpeg');
+}
+
+.imagem-5 {
+    background-image: url('https://i.ytimg.com/vi/gRaKN_s9KNA/maxresdefault.jpg');
+}
+
+.imagem-6 {
+    background-image: url('https://uploads.diariodopoder.com.br/2019/09/guerra-na-selva-exercito-brasileiro-e1568517894799.jpg');
+}
+
+.imagem-7 {
+    background-image: url('https://media.gazetadopovo.com.br/2020/12/13161316/tropa-do-exercito-brasileiro-960x540.jpg');
+}
+
+.imagem-8 {
+    background-image: url('https://i.pinimg.com/originals/35/9f/82/359f827be82699af720033a38c090a8a.jpg');
+}
+
+.imagem-9 {
+    background-image: url('https://2de.eb.mil.br/images/CORE21/Core21-2.jpg');
+}
+
+.imagem-10 {
+    background-image: url('http://www.jornalopcao.com.br/wp-content/uploads/2015/11/22763756080_548f3ae615_b-620x350.jpg');
+}
+
+.imagem-11 {
+    background-image: url('https://2de.eb.mil.br/images/JUL_21/6bil-comandos-6.jpeg');
+}
+
+.imagem-12 {
+    background-image: url('https://www.defesaemfoco.com.br/arquivos/2021/06/20.jpg');
+}
+
+/* imagens */
+
+
+/* responsivo */
+@media(max-width: 720px) {
+    nav {
+        display: none;
+    }
+
+    .ul-responsivo {
+        display: table;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .imagens:hover {
+        display: none;
+    }
+
+    .menu {
+        font-size: 20px;
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fotos {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        display: grid;
+    }
+
+    /* .imagens {
+        height: 400px;
+
+    } */
+
+    .imagens {
+        width: 100%;
+        height: 250px;
+        pointer-events: none;
+    }
+
+    .imagens:hover {
+        display: none;
+    }
+
+    .pagina {
+        padding: 10px;
+    }
+
+}
+
+
+
+@media(min-width: 1366px) {
+
+    .pagina {
+        padding: 0 7px 0 7px;
+    }
+
+    .ul-responsivo {
+        display: none;
+    }
+}
+
+/* responsivo */
