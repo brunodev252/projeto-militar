@@ -83,8 +83,12 @@
 
 
 @media(min-width: 1366px) {
-    .pagina {
+    /* .pagina {
         padding: 0 7px 0 7px;
+    } */
+
+    .pagina {
+        padding: 0 10px 0 10px;
     }
 
     .ul-responsivo {
