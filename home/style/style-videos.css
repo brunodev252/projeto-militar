@@ -5,14 +5,8 @@
 /* . é classe */
 
 
-/* videos */
 
-
-
-
-/* videos */
-
-/* responsivo */
+/* responsivo até 720px */
 @media(max-width: 720px) {
     nav {
         display: none;
@@ -28,10 +22,8 @@
         width: 100%;
         height: 250px;
         background-size: cover;
-        /* background-position: 50% 50%; */
         border-radius: 5px;
         cursor: pointer;
-        /* transition: 1s; */
         display: flex;
         flex-direction: column;
         border: none;
@@ -53,39 +45,29 @@
         column-gap: 10px;
         margin-bottom: 4px;
         margin-top: 3px;
-        /* padding-right: 7px; */
-        /* background-position: 50% 50%; */
-
     }
 
     .bloco-videos {
         width: 100%;
         display: flex;
         justify-content: center;
-
     }
 
     .link:hover {
         display: none;
     }
 
-
     .pagina {
         padding: 10px;
     }
-
-    /* .link:hover {
-        transform: scale(1.03);
-
-    } */
 }
 
+/* responsivo até 720px */
 
 
-@media(min-width: 1366px) {
-    /* .pagina {
-        padding: 0 7px 0 7px;
-    } */
+
+/* responsivo acima 721px */
+@media(min-width: 721px) {
 
     .pagina {
         padding: 0 7px 0 7px;
@@ -97,7 +79,7 @@
 
     .link {
         width: 100%;
-        height: 250px;
+        height: 300px;
         background-size: cover;
         background-position: 50% 50%;
         border-radius: 5px;
@@ -106,36 +88,28 @@
         display: flex;
         flex-direction: column;
         border: none;
-
     }
 
     .bloco-videos {
         width: 100%;
         display: flex;
         justify-content: center;
-
     }
 
     .videos {
         width: 100%;
-        /* height: 250px; */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 10px;
         column-gap: 10px;
         margin-bottom: 4px;
         margin-top: 3px;
-        /* padding-right: 7px; */
         background-position: 50% 50%;
-
     }
-
-
 
     .link:hover {
         transform: scale(1.03);
-
     }
 }
 
-/* responsivo */
+/* responsivo acima de 721px */

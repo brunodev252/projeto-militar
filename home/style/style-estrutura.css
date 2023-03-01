@@ -4,8 +4,11 @@
 /* # é id */
 /* . é classe */
 
+
+
 /* cabecalho */
 * {
+
     margin: 0;
     padding: 0;
     list-style: none;
@@ -22,10 +25,8 @@ header {
     background-color: rgb(10, 130, 10);
 }
 
-
 nav {
     width: 60%;
-
 }
 
 ul {
@@ -43,7 +44,6 @@ li {
     font-size: 17px;
     transition: 1.0s;
     font-family: 'Kdam Thmor Pro', sans-serif;
-
 }
 
 li:hover {
@@ -57,13 +57,8 @@ li:hover {
 /* cabecalho */
 
 
-/*meio da pagina, titulo e subtiulo*/
-/* .pagina {
-    padding: 0 5px 0 5px;
-    list-style: none;
-    text-decoration: none;
-} */
 
+/* Meio da página, titulo e subtitulo */
 .titulo {
     color: black;
     font-size: 30px;
@@ -86,7 +81,8 @@ li:hover {
     margin-bottom: 60px;
 }
 
-/*meio da pagina, titulo e subtiulo*/
+/* Meio da página, titulo e subtitulo */
+
 
 
 /* rodape */
@@ -106,6 +102,5 @@ li:hover {
 .baixo {
     width: 100%;
 }
-
 
 /* rodape */

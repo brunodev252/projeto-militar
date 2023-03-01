@@ -4,7 +4,6 @@
 /* # é id */
 /* . é classe */
 
-
 /* textos */
 p.texto1 {
     font-family: 'Rajdhani', sans-serif;
@@ -14,7 +13,6 @@ p.texto1 {
     padding-left: 70px;
     padding-right: 70px;
     line-height: 22px;
-
 }
 
 p.titulo-texto {
@@ -22,13 +20,13 @@ p.titulo-texto {
     font-family: 'Rajdhani', sans-serif;
     color: black;
     font-size: 18px;
-
-
 }
 
 /* textos */
 
-/* responsivo */
+
+
+/* responsivo até 720px */
 @media(max-width: 720px) {
     nav {
         display: none;
@@ -39,7 +37,6 @@ p.titulo-texto {
         text-align: center;
         margin-top: 50px;
     }
-
 
     .menu {
         font-size: 20px;
@@ -52,14 +49,14 @@ p.titulo-texto {
     p.texto1 {
         padding: 0 10px 0 10px;
     }
-
-
-
 }
 
+/* responsivo até 720px */
 
 
-@media(min-width: 1366px) {
+
+/* responsivo acima de 721px */
+@media(min-width: 721px) {
     .pagina {
         padding: 0 7px 0 7px;
         list-style: none;
@@ -71,4 +68,4 @@ p.titulo-texto {
     }
 }
 
-/* responsivo */
+/* responsivo acima de 721px */
