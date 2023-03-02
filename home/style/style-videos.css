@@ -68,7 +68,6 @@
 
 /* responsivo acima 721px */
 @media(min-width: 721px) {
-
     .pagina {
         padding: 0 7px 0 7px;
     }
