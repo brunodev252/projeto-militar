@@ -8,6 +8,35 @@
 
 /* responsivo até 720px */
 @media screen and (max-width: 720px) {
+
+    /* loading */
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #0b930b;
+    }
+
+    .par {
+        position: absolute;
+        top: 50%;
+        width: 25%;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        background-color: #f2f2f2;
+        font-size: 13px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        border-radius: 25px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* loading */
+
+
     nav {
         display: none;
     }
@@ -73,32 +102,34 @@
 
 /* responsivo acima de 721px */
 @media screen and (min-width: 721px) {
-    /* ini: Preloader */
 
+    /* loading */
     #preloader {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgb(10, 130, 10);
-        opacity: 95%;
-        text-align: center;
-        /* display: table; */
-        /* cor do background que vai ocupar o body */
-        z-index: 999;
-        /* z-index para jogar para frente e sobrepor tudo */
+        background-color: #0b930b;
     }
 
-    #preloader .inner {
+    .par {
         position: absolute;
         top: 50%;
-        /* centralizar a parte interna do preload (onde fica a animação)*/
+        width: 15%;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        background-color: #f2f2f2;
+        font-size: 13px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        border-radius: 25px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
-    /*  */
+    /* loading */
+
 
     .pagina {
         padding: 0 7px 0 7px;
